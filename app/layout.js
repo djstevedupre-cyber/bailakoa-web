@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Bailakoa | Grupo musical femenino",
+  title: "Bailakoa | Grupo Musical Femenino",
   description:
     "Grupo musical femenino para bodas, eventos empresariales, fiestas privadas y celebraciones en toda Colombia.",
   openGraph: {
