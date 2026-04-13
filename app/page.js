@@ -84,6 +84,9 @@ export default function BailakoaWebLanding() {
             <a href="#galeria" className="transition hover:text-pink-200">
               Galería
             </a>
+            <a href="#videos" className="transition hover:text-pink-200">
+              Videos
+            </a>
             <a href="#contacto" className="transition hover:text-pink-200">
               Contacto
             </a>
@@ -364,6 +367,32 @@ export default function BailakoaWebLanding() {
                 </div>
               </div>
             ))}
+          </div>
+        </section>
+
+        <section id="videos" className="mx-auto max-w-7xl px-6 py-8 md:py-12">
+          <div className="mb-10 max-w-3xl">
+            <p className="text-sm uppercase tracking-[0.35em] text-pink-200">
+              Videos
+            </p>
+            <h3 className="mt-4 text-3xl font-bold md:text-4xl">
+              Bailakoa en movimiento y en escena.
+            </h3>
+            <p className="mt-4 text-lg leading-8 text-white/72">
+              Una muestra en video para ver la energía, presencia y estilo del
+              grupo en presentación.
+            </p>
+          </div>
+
+          <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.05] p-4 shadow-2xl shadow-black/20">
+            <video
+              controls
+              preload="metadata"
+              className="h-auto w-full rounded-[1.5rem]"
+            >
+              <source src="/videos/video1.mp4" type="video/mp4" />
+              Tu navegador no soporta video HTML5.
+            </video>
           </div>
         </section>
 
