@@ -40,42 +40,15 @@ export default function BailakoaWebLanding() {
   ];
 
   return (
-    <div className="relative min-h-screen overflow-hidden bg-[#050505] text-white">
-  <div
-    className="absolute inset-0 bg-cover bg-center opacity-20"
-    style={{ backgroundImage: "url('/grupo-bailakoa.jpg')" }}
-  />
-  <div className="absolute inset-0 bg-black/70" />
+  <div className="relative min-h-screen overflow-hidden bg-[#050505] text-white">
+    <div
+      className="absolute inset-0 bg-cover bg-center opacity-10"
+      style={{ backgroundImage: "url('/grupo-bailakoa.jpg')" }}
+    />
+    <div className="absolute inset-0 bg-black/80" />
 
-  <div className="relative z-10">
-       <div className="fixed inset-0 -z-10 bg-[radial-gradient(circle_at_top,rgba(244,114,182,0.14),transparent_30%),radial-gradient(circle_at_80%_20%,rgba(251,191,36,0.08),transparent_20%)]" />
-
-      <header className="sticky top-0 z-50 border-b border-white/10 bg-black/55 backdrop-blur-xl">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-          <a href="#inicio" className="flex items-center gap-3">
-            <img
-              src="/logo-bailakoa.png"
-              alt="Logo Bailakoa"
-              className="h-12 w-12 rounded-full object-cover ring-1 ring-white/10"
-            />
-            <div>
-              <p className="text-lg font-black tracking-[0.24em] text-pink-200">BAILAKOA</p>
-              <p className="text-[11px] uppercase tracking-[0.34em] text-white/55">
-                Grupo musical femenino
-              </p>
-            </div>
-          </a>
-
-          <nav className="hidden items-center gap-6 text-sm text-white/75 md:flex">
-            <a href="#inicio" className="transition hover:text-pink-200">Inicio</a>
-            <a href="#nosotras" className="transition hover:text-pink-200">Nosotras</a>
-            <a href="#servicios" className="transition hover:text-pink-200">Servicios</a>
-            <a href="#repertorio" className="transition hover:text-pink-200">Repertorio</a>
-            <a href="#contacto" className="transition hover:text-pink-200">Contacto</a>
-          </nav>
-        </div>
-      </header>
-
+    <div className="relative z-10">
+    
       <main>
         <section id="inicio" className="mx-auto max-w-7xl px-6 pb-20 pt-14 md:pt-20">
           <div className="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr]">
