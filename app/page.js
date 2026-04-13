@@ -40,8 +40,15 @@ export default function BailakoaWebLanding() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#050505] text-white">
-      <div className="fixed inset-0 -z-10 bg-[radial-gradient(circle_at_top,rgba(244,114,182,0.14),transparent_30%),radial-gradient(circle_at_80%_20%,rgba(251,191,36,0.08),transparent_20%)]" />
+    <div className="relative min-h-screen overflow-hidden bg-[#050505] text-white">
+  <div
+    className="absolute inset-0 bg-cover bg-center opacity-20"
+    style={{ backgroundImage: "url('/grupo-bailakoa.jpg')" }}
+  />
+  <div className="absolute inset-0 bg-black/70" />
+
+  <div className="relative z-10">
+       <div className="fixed inset-0 -z-10 bg-[radial-gradient(circle_at_top,rgba(244,114,182,0.14),transparent_30%),radial-gradient(circle_at_80%_20%,rgba(251,191,36,0.08),transparent_20%)]" />
 
       <header className="sticky top-0 z-50 border-b border-white/10 bg-black/55 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
